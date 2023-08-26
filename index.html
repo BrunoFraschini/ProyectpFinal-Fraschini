@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Trivia</title>
+</head>
+<body>
+    <div id="contenedor">
+        <div id="inicio">Iniciar</div>
+        <div id="trivia" style="display: none;">
+            <div id="pregunta"></div>
+            <div id="imgPregunta"></div>
+            <div id="opciones">
+                <div class="opcion" id="A" onclick="chequearRespuesta('A')">A</div>
+                <div class="opcion" id="B" onclick="chequearRespuesta('B')">B</div>
+                <div class="opcion" id="C" onclick="chequearRespuesta('C')">C</div>
+            </div>
+            <div id="timer">
+                <div id="contador"></div>
+                <div id="fondoTiempo"></div>
+                <div id="tiempo"></div>
+            </div>
+            <div id="progreso"></div>
+        </div>
+        <div id="puntaje" style="display: none"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

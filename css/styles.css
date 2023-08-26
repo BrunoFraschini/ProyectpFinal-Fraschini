@@ -1,0 +1,130 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+#contenedor{
+    margin : 20px auto;
+    background-color: rgba(199, 10, 10, 0.6);
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+#inicio{
+    font-size: 1.4em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:120px;
+    height:50px;
+    border : 2px solid black;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:300px;
+    top:50px;
+    color : black;
+    background-color: rgba(8, 134, 238, 0.7);
+}
+#inicio:hover{
+    border: 3px solid black;
+    color : black;
+    background-color: rgba(8, 134, 238, 0.7);
+    scale: 1.07;
+}
+
+#imgPregunta{
+    width : 200px;
+    height : 200px;
+    position: absolute;
+    left : 0px;
+    top : 0px;
+}
+#imgPregunta img{
+    width : 200px;
+    height : 210px;
+    border-top-left-radius: 5px;
+}
+
+#pregunta{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+#pregunta p{
+    margin : 0;
+    padding : 15px;
+    font-size: 1.25em;
+}
+
+#opciones{
+    width : 480px;
+    position: absolute;
+    right : 0;
+    top : 125px;
+    padding : 10px
+}
+.opcion{
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 3px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+    background-color: rgba(8, 134, 238, 0.7);
+}
+.opcion:hover{
+    border : 2px solid white;
+    font-weight: bold;
+}
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#contador{
+    font-size: 3em;
+}
+#fondoTiempo{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+}
+#tiempo{
+    height : 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progreso{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 2px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+
+
+
+
+
